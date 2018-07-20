@@ -6,7 +6,7 @@ const project = require('../project.config')
 
 const inProject = path.resolve.bind(path, project.basePath)
 const inProjectSrc = (file) => inProject(project.srcDir, file)
-const inProjectSrcEntry = (file) => inProject(project.srcDir+"/ui/entryPoint/",file);
+const inProjectSrcEntry = (file) => inProject(project.entryDir,file);
 
 const __DEV__ = project.env === 'development';
 const __PROD__ = project.env === 'production';
