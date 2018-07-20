@@ -23,7 +23,7 @@ const config = {
     devtool: project.sourcemaps ? 'source-map' : false,
     output: {
         path: inProject(project.outDir),
-        filename: __DEV__ ? '[name].js' : '[name].[chunkhash].js',
+        filename: __DEV__ ? '[name].js' : '[name].js',
         publicPath: project.publicPath,
     },
     node: {

@@ -11,7 +11,7 @@
     "react-ga": "^2.4.1",
     "react-router": "^3.0.0"
   },
-  "main": "src/server/server.js",
+  "main": "dist/app.js",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
